@@ -1,0 +1,6 @@
+graph TD
+    A[Rust Core - Astrodynamics Engine] -->|Processes 1M+ TLEs/s| B[Python AI Layer]
+    B --> C[Real-Time Visualization]
+    A --> D[API Server - Rocket]
+    D --> E[Frontend/Dashboard]
+    B --> F[PostgreSQL + TimescaleDB]
